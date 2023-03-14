@@ -8,6 +8,7 @@ require (
 	github.com/jackc/pgx/v4 v4.16.1
 	github.com/jmoiron/sqlx v1.3.5
 	github.com/joeshaw/envdecode v0.0.0-20200121155833-099f1fc765bd
+	github.com/joho/godotenv v1.5.1
 	github.com/oklog/run v1.1.1-0.20200508094559-c7096881717e
 	github.com/sirupsen/logrus v1.8.2-0.20220112234510-85981c045988
 	github.com/unrolled/secure v1.10.0
