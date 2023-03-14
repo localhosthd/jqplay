@@ -11,7 +11,13 @@ import (
 )
 
 func main() {
-	err := jq.Init()
+	// load .env
+	err := godotenv.Load()
+	if err != nil {
+		log.Fatalf("unable to load .env file: %e", err)
+	}
+
+	err = jq.Init()
 	if err != nil {
 		log.Fatal(err)
 	}
