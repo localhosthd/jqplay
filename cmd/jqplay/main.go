@@ -6,6 +6,7 @@ import (
 	"github.com/owenthereal/jqplay/config"
 	"github.com/owenthereal/jqplay/jq"
 	"github.com/owenthereal/jqplay/server"
+	"github.com/joho/godotenv"
 	log "github.com/sirupsen/logrus"
 )
 
