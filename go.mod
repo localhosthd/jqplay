@@ -1,6 +1,6 @@
 module github.com/owenthereal/jqplay
 
-go 1.19
+go 1.18
 
 require (
 	github.com/gin-gonic/gin v1.7.7
